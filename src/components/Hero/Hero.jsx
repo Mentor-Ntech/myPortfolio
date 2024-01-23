@@ -12,7 +12,7 @@ const Hero = () => {
     <div className='hero'>
         <div className='hero__Text'>
             <h1>
-                na'eem &nbsp;
+                naheem &nbsp;
                 <span>oloyede</span>
             </h1>
 
@@ -24,7 +24,6 @@ const Hero = () => {
             <a href='#' title='linkedin'><FaLinkedin /></a>
             <a href='#' title='x-formerly twitter'><BsTwitter /></a>
             <a href='#' title='facebook'><FaFacebookF /></a>
-            <a href='#' title='whatsapp'><RiWhatsappFill /></a>
             <a href='#' title='github'><FaGithub /></a>
         </div>
     </div>

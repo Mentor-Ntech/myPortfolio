@@ -14,9 +14,9 @@ const Footer = () => {
         fontSize: "15px",
       }}
     >
-      <p>&copy; {updatedDate} <a href="mailto:" style={{
+      <p>&copy; {updatedDate} <a href="mailto:oloyedeaderayo11@gmail.com" style={{
         textDecoration: 'none', color: "inherit"
-      }}>Oloyede Na'eem A.</a> | All Rights Reserved.</p>
+      }}>Oloyede Naheem A.</a> | All Rights Reserved.</p>
     </div>
   );
 };
