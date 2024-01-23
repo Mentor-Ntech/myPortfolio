@@ -13,6 +13,7 @@ function App() {
       <Hero/>
       <About/>
       <Experience/>
+      {/* Project component here */}
       <Contact/>
       <Footer/>
     </>
