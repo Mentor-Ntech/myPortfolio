@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import Contact from "./components/Contact/Contact"
 import Experience from "./components/Exp/Experience"
 import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <About/>
       <Experience/>
+      <Contact/>
       <Footer/>
     </>
   )
