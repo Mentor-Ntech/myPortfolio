@@ -4,6 +4,7 @@ import { RiCodeView } from "react-icons/ri";
 
 const lists = [
   { tag: "About", id: "#about" },
+  { tag: "Experience", id: "#experience" },
   { tag: "Projects", id: "#projects" },
   { tag: "Contact Me", id: "#contact" },
 ];

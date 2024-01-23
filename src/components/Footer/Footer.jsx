@@ -14,7 +14,9 @@ const Footer = () => {
         fontSize: "15px",
       }}
     >
-      <p>&copy; {updatedDate} Oloyede Na'eem A. | All Rights Reserved.</p>
+      <p>&copy; {updatedDate} <a href="mailto:" style={{
+        textDecoration: 'none', color: "inherit"
+      }}>Oloyede Na'eem A.</a> | All Rights Reserved.</p>
     </div>
   );
 };

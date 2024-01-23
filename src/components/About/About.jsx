@@ -14,10 +14,11 @@ const About = () => {
                8, pegamut estate 
             </address>
         </div>
-
+        
         <div>
             <img src='/public/WhatsApp Image 2024-01-22 at 21.19.30.jpeg'/>
         </div>
+
     </section>
   )
 }
