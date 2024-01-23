@@ -1,0 +1,66 @@
+.about {
+  display: flex;
+  padding: 0 8em;
+  margin: 7rem 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  @media screen and (max-width: 990px) {
+    padding: unset;
+  }
+
+  
+  .content {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    @media screen and (max-width: 460px) {
+        text-align: center;
+      }
+
+    h1 {
+      text-transform: capitalize;
+      width: 50px;
+      font-size: 2rem;
+    }
+
+    :is(p, address) {
+      text-transform: capitalize;
+      font-size: 18px;
+      text-wrap: wrap;
+    }
+
+    :nth-child(3) {
+      border-top: 1px solid;
+      margin-top: 10em;
+
+      @media screen and (max-width: 750px) {
+        margin-top: unset;
+      }
+    }
+
+    p::first-line {
+      font-variant: small-caps;
+      color: green;
+      font-size: 25px;
+      font-weight: 500;
+    }
+  }
+
+  div > img {
+    width: 200px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 650px) {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
