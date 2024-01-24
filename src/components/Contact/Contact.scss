@@ -4,9 +4,17 @@
   margin: 7rem 0;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 20px;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 4em;
+    border: 2px solid;
+  }
+
+  @media screen and (max-width: 460px) {
+    padding: 0 1em;
+  }
 
   header {
     text-align: center;
