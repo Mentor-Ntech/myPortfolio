@@ -21,10 +21,10 @@ const Hero = () => {
         </div>
 
         <div className='hero__socials'>
-            <a href='#' title='linkedin'><FaLinkedin /></a>
-            <a href='#' title='x-formerly twitter'><BsTwitter /></a>
-            <a href='#' title='facebook'><FaFacebookF /></a>
-            <a href='#' title='github'><FaGithub /></a>
+            <a href='#' target='_blank' title='linkedin'><FaLinkedin /></a>
+            <a href='https://twitter.com/oloyedenaheem' target='_blank' title='x-formerly twitter'><BsTwitter /></a>
+            <a href='#' target='_blank' title='facebook'><FaFacebookF /></a>
+            <a href='https://github.com/Mentor-Ntech' target='_blank' title='github'><FaGithub /></a>
         </div>
     </div>
   )

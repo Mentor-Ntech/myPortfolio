@@ -44,12 +44,12 @@ const Experience = () => {
           <div>
             <div className="wrapper">
               <div className="span"> 2023 till present</div>
-              <p>CELO Africa DAO</p>
+              <p><a href="https://celoafricadao.xyz/" target="_blank">CELO Africa DAO</a></p>
               <sub>Junior Dev.</sub>
             </div>
             <div className="wrapper">
               <div className="span"> 2022 till present</div>
-              <p>DLT Africa Academy</p>
+              <p><a href="https://www.dltafrica.io" target="_blank"> DLT Africa Academy</a></p>
               <sub>team Lead.</sub>
             </div>
           </div>
