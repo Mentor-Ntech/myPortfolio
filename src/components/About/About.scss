@@ -21,12 +21,19 @@
 
     @media screen and (max-width: 460px) {
         text-align: center;
+        width: unset;
+        padding: 2px 5px;
       }
 
     h1 {
       text-transform: capitalize;
       width: 50px;
       font-size: 2rem;
+
+      @media screen and (max-width: 460px) {
+        text-align: center;
+        
+      }
     }
 
     :is(p, address) {
