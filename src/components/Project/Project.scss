@@ -1,0 +1,77 @@
+.project {
+  padding: 0 8em;
+  margin: 7rem 0;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 1em;
+  }
+
+  header {
+    text-align: center;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8em;
+
+    p {
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding: unset;
+    }
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    @media screen and (max-width: 990px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    .mapping {
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+
+      > img {
+        width: 200px;
+        border-radius: 10px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        width: 60%;
+        margin-bottom: 10px;
+
+        @media screen and (max-width: 990px) {
+          width: 70%;
+        }
+        @media screen and (max-width: 768px) {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
